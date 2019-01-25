@@ -17,7 +17,7 @@ public class FallingThings : MonoBehaviour
     void OnMouseDown()
     {
 
-        renderer.enabled = false;
+        GetComponent<Renderer>().enabled = false;
 
     }
 
