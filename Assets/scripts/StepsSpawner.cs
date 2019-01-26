@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 public class StepsSpawner : MonoBehaviour
 {
+    public State state;
+
     public int stepsCount = 10;
     public float stepDistance = 0.07f;
     public float stepDistanceRandomFactor = 0.05f;
@@ -13,10 +15,12 @@ public class StepsSpawner : MonoBehaviour
     private List<GameObject> steps = new List<GameObject>();
     private bool updateOnce = true;
     private float currentHeight = 0;
+    private string currentLevel;
 
     void Start()
     {
         currentHeight = gameObject.GetComponent<MeshFilter>().mesh.bounds.min[1];
+        currentLevel = state.currentLevel.ToString();
 
         CreateSteps();
     }
@@ -55,7 +59,7 @@ public class StepsSpawner : MonoBehaviour
 
     private GameObject CreateStep()
     {
-        string url = "lvl1/prefabs/" + Random.Range(1, 4).ToString();
+        string url = "lvl"+ currentLevel + "/ prefabs/" + Random.Range(1, 4).ToString();
         var tempObj = Instantiate(Resources.Load(url, typeof(GameObject)) as GameObject);
         tempObj.transform.SetParent(gameObject.transform);
 
