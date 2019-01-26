@@ -6,8 +6,10 @@ using Newtonsoft.Json.Linq;
 public class PlayerController : MonoBehaviour
 {
     // Start is called before the first frame update
+    public static PlayerController instance;
     public bool right, left, leftHand, rightHand, isLeftGrabbed, isRightGrabbed;
     public Hand leftHandRef, rightHandRef;
+    public float scrollSpeed = -1.5f;
     public List<int> remoteUsers;
     private void Awake()
     {
