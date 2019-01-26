@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
     // Start is called before the first frame update
     public float xPower = 200f;
     public float yPower = 200f;
+    public State state;
+    public string cutSceneName = "cutscene";
     private ConstantForce2D force;
     private PlayerController playerController;
     private Rigidbody2D rigid;
@@ -62,5 +65,14 @@ public class Player : MonoBehaviour
         }
         force.force = new Vector2(xForce, yForce);
 
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "end")
+        { 
+            state.currentLevel = 0;
+            state.nextLevel = 1;
+            SceneManager.LoadSceneAsync(cutSceneName);
+        }
     }
 }

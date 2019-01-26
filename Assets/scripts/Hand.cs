@@ -16,7 +16,6 @@ public class Hand : MonoBehaviour
     public bool isGrabbed = false;
 
     public State state;
-    public string cutSceneName = "cutscene";
 
     void Start()
     {
@@ -71,12 +70,7 @@ public class Hand : MonoBehaviour
         {
             isOverShelf = true;
         }
-        if(col.tag == "end")
-        {
-            state.currentLevel = 0;
-            state.nextLevel = 1;
-            SceneManager.LoadSceneAsync(cutSceneName);
-        }
+
 
     }
 

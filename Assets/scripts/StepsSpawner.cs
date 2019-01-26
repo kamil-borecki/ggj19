@@ -22,7 +22,7 @@ public class StepsSpawner : MonoBehaviour
     // TODO get rid of this
     private bool stepsMoved = false;
 
-    void Start()
+    void Awake()
     {
         SetupLevel(state.levels[state.currentLevel-1]);
         currentLevel = state.currentLevel.ToString();

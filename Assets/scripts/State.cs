@@ -2,6 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 
+[System.Serializable]
+public class LevelSettings
+{
+    public int stepsCount, stepsVariantsCount;
+    public float spaceBeetwenSteps, stepsDistanceFactor, routeWidth, routeWidthFactor;
+}
+
 [CreateAssetMenu()]
 public class State : ScriptableObject
 {
@@ -10,11 +17,17 @@ public class State : ScriptableObject
     public int nextLevel = 1;
     public GameObject background;
 
+    public List<LevelSettings> levelSettings;
+   
+
     private void OnEnable()
     {
         //public Level(int steps, int stepsVar, float stepDist, float stepDistRand, float route, float routeWidthRand)
-        levels.Add(new Level(8, 3, 0.9f, 0.05f, 0.7f, 0.1f));
-        levels.Add(new Level(12, 3, 1.3f, 0.05f, 0.7f, 0.1f));
-        levels.Add(new Level(16, 3, 1.1f, 0.05f, 0.7f, 0.1f));
+
+        foreach(LevelSettings levelSetting in levelSettings)
+        {
+            levels.Add(new Level(levelSetting));
+        }
+       
     }
 }

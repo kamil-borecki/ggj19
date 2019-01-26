@@ -10,14 +10,13 @@ public class Level
     public float routeWidth;
     public float routeWidthRandomFactor;
 
-    public Level(int steps, int stepsVar, float stepDist, 
-    float stepDistRand, float route, float routeWidthRand)
+    public Level(LevelSettings levelSettings)
     {
-        stepsCount = steps;
-        stepsVariations = stepsVar;
-        stepDistance = stepDist;
-        stepDistanceRandomFactor = stepDistRand;
-        routeWidth = route;
-        routeWidthRandomFactor = routeWidthRand;
+        stepsCount = levelSettings.stepsCount;
+        stepsVariations = levelSettings.stepsVariantsCount;
+        stepDistance = levelSettings.spaceBeetwenSteps;
+        stepDistanceRandomFactor = levelSettings.stepsDistanceFactor;
+        routeWidth = levelSettings.routeWidth;
+        routeWidthRandomFactor = levelSettings.routeWidthFactor;
     }
 }
