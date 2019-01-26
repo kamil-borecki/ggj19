@@ -7,19 +7,24 @@ public class StepsSpawner : MonoBehaviour
     public State state;
 
     public int stepsCount = 10;
+    public int stepsVariations = 3;
     public float stepDistance = 0.07f;
     public float stepDistanceRandomFactor = 0.05f;
     public float routeWidth = 0.3f;
     public float routeWidthRandomFactor = 0.1f;
+
     private List<GameObject> steps = new List<GameObject>();
-    private bool updateOnce = true;
+    private GameObject finishLine;
     private float currentHeight = 0;
     private string currentLevel;
+
+    // TODO get rid of this
+    private bool stepsMoved = false;
 
     void Start()
     {
         //currentHeight = gameObject.GetComponent<MeshFilter>().mesh.bounds.min[1];
-        currentLevel = state.currentLevelNumber.ToString();
+        currentLevel = state.currentLevel.ToString();
 
         CreateSteps();
     }
@@ -28,22 +33,22 @@ public class StepsSpawner : MonoBehaviour
     void Update()
     {
         // TODO ten if nie powinien sprawdzać co klatkę
-        if (updateOnce)
+        if (!stepsMoved)
         {
             UpdateStepsPositions();
         }
     }
 
-    void CreateSteps() 
+    private void CreateSteps()
     {
         for(int i = 0; i < stepsCount; i++)
         {
-            var step = CreateStep();
-            steps.Add(step);
+            steps.Add(CreateStep());
         }
+        CreateFinalStepColider();
     }
 
-    void UpdateStepsPositions()
+    private void UpdateStepsPositions()
     {
         for (int i = 0; i<steps.Count; i++)
         {
@@ -51,17 +56,29 @@ public class StepsSpawner : MonoBehaviour
 
             steps[i].transform.localPosition = new Vector2(-routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor));
             i++;
-            steps[i].transform.localPosition = new Vector2(routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor));
+            if (steps[i])
+            {
+                steps[i].transform.localPosition = new Vector2(routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor));
+            }
         }
-        updateOnce = !updateOnce;
+
+        finishLine.transform.localPosition = new Vector2(-routeWidth, currentHeight);
+
+        stepsMoved = !stepsMoved;
     }
 
     private GameObject CreateStep()
     {
-        string url = "lvl" + currentLevel + "/prefabs/" + Random.Range(1, 4).ToString();
+        string url = "lvl" + currentLevel + "/prefabs/" + Random.Range(1, stepsVariations+1).ToString();
         var tempObj = Instantiate(Resources.Load(url, typeof(GameObject)) as GameObject);
         tempObj.transform.SetParent(gameObject.transform);
 
         return tempObj;
+    }
+
+    private void CreateFinalStepColider()
+    {
+        finishLine = Instantiate(Resources.Load("common/finisher", typeof(GameObject)) as GameObject);
+        finishLine.transform.SetParent(gameObject.transform);
     }
 }
