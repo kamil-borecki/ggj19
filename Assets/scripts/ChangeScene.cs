@@ -6,8 +6,12 @@ public class ChangeScene : MonoBehaviour
 {
     public string cutSceneName = "cutscene";
 
-    void OnTriggerEnter2D()
+    void OnTriggerEnter2D(Collider2D colider)
     {
-        SceneManager.LoadSceneAsync(cutSceneName);
+        // TODO SETUP TAG ON CORPSE
+        if (colider.tag == "corpse")
+        {
+            SceneManager.LoadSceneAsync(cutSceneName);
+        }
     }
 }
