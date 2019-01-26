@@ -6,7 +6,8 @@ using System.Collections.Generic;
 public class State : ScriptableObject
 {
     public List<Level> levels = new List<Level>();
-    public int currentLevelNumber = 1;
+    public int currentLevel = 0;
+    public int nextLevel = 1;
     public int stepsVariations = 3;
     public GameObject background;
 }
