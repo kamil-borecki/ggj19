@@ -13,6 +13,7 @@ public class StepsSpawner : MonoBehaviour
     public float routeWidthRandomFactor = 0.1f;
 
     private List<GameObject> steps = new List<GameObject>();
+    private GameObject finishLine;
     private float currentHeight = 0;
     private string currentLevel;
 
@@ -52,13 +53,16 @@ public class StepsSpawner : MonoBehaviour
         {
             currentHeight += stepDistance;
 
-            steps[i].transform.localPosition = new Vector3(-routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor), -1);
+            steps[i].transform.localPosition = new Vector2(-routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor));
             i++;
             if (steps[i])
             {
-                steps[i].transform.localPosition = new Vector3(routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor), -1);
+                steps[i].transform.localPosition = new Vector2(routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor));
             }
         }
+
+        finishLine.transform.localPosition = new Vector2(-routeWidth, currentHeight);
+
         stepsMoved = !stepsMoved;
     }
 
@@ -73,6 +77,7 @@ public class StepsSpawner : MonoBehaviour
 
     private void CreateFinalStepColider()
     {
-
+        finishLine = Instantiate(Resources.Load("common/finisher", typeof(GameObject)) as GameObject);
+        finishLine.transform.SetParent(gameObject.transform);
     }
 }
