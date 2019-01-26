@@ -12,6 +12,7 @@ public class Hand : MonoBehaviour
     private PlayerController playerController;
     private ConstantForce2D force;
     private bool isOverShelf = false;
+    public bool isGrabbed = false;
     void Start()
     {
         rigid = this.GetComponent<Rigidbody2D>();
@@ -31,6 +32,7 @@ public class Hand : MonoBehaviour
                 yForce = yPower;
                 rigid.constraints = RigidbodyConstraints2D.None;
                 playerController.isLeftGrabbed = false;
+                isGrabbed = false;
             }
         }
         else
@@ -40,6 +42,7 @@ public class Hand : MonoBehaviour
                 yForce = yPower;
                 rigid.constraints = RigidbodyConstraints2D.None;
                 playerController.isRightGrabbed = false;
+                isGrabbed = false;
             }
         }
         if (!playerController.isLeftGrabbed && !playerController.isRightGrabbed)
@@ -47,6 +50,13 @@ public class Hand : MonoBehaviour
             yForce = 0;
         }
         force.force = new Vector2(0, yForce);
+
+        if (isGrab)
+        {
+            gameObject.GetComponent<Animator>().SetBool("grabbed", isGrabbed);
+
+        }
+
     }
 
 
@@ -77,6 +87,7 @@ public class Hand : MonoBehaviour
       
         if (isGrab && isOverShelf)
         {
+            isGrabbed = true;
             rigid.constraints = RigidbodyConstraints2D.FreezePosition;
             if (isLeft)
             {

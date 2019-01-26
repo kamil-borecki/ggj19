@@ -10,9 +10,13 @@ public class Player : MonoBehaviour
     private ConstantForce2D force;
     private PlayerController playerController;
     private Rigidbody2D rigid;
+    private Animator headAnimator;
+    private GameObject head;
     void Start()
     {
        force = this.GetComponent<ConstantForce2D>();
+        head = GameObject.Find("Head");
+        headAnimator = head.GetComponent<Animator>();
         rigid = this.GetComponent<Rigidbody2D>();
         playerController = GameObject.Find("Camera").GetComponent<PlayerController>();
     }
@@ -38,6 +42,23 @@ public class Player : MonoBehaviour
         }
         if (!playerController.isLeftGrabbed && !playerController.isRightGrabbed) {
             xForce = yForce = 0;
+        }
+        if(xForce != 0)
+        {
+            headAnimator.SetBool("looking", true);
+            if(xForce < 0)
+            {
+                head.GetComponent<SpriteRenderer>().flipX = true;
+            }
+            else
+            {
+                head.GetComponent<SpriteRenderer>().flipX = false;
+
+            }
+        }
+        else
+        {
+            headAnimator.SetBool("looking", false);
         }
         force.force = new Vector2(xForce, yForce);
 
