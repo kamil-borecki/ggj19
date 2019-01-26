@@ -46,7 +46,6 @@ public class Hand : MonoBehaviour
         {
             yForce = 0;
         }
-        Debug.Log(yForce);
         force.force = new Vector2(0, yForce);
     }
 
