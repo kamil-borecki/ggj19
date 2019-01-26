@@ -49,9 +49,9 @@ public class StepsSpawner : MonoBehaviour
         {
             currentHeight += stepDistance;
 
-            steps[i].transform.localPosition = new Vector3(-routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor), -1);
+            steps[i].transform.localPosition = new Vector2(-routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor));
             i++;
-            steps[i].transform.localPosition = new Vector3(routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor), -1);
+            steps[i].transform.localPosition = new Vector2(routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor));
         }
         updateOnce = !updateOnce;
     }
