@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657856, g: 0.49641234, b: 0.57481724, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.49641275, b: 0.57481736, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -282,10 +282,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1206792933}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbbbd38494ef540e29be1e78eb0b9343, type: 3}
+  m_Script: {fileID: 11500000, guid: d621d9138f6e84128ae0b931e2a43717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallSpeed: 10
+  stepsCount: 10
+  backgroundName: test
 --- !u!1 &1541058782
 GameObject:
   m_ObjectHideFlags: 0
