@@ -62,7 +62,7 @@ public class StepsSpawner : MonoBehaviour
 
     private GameObject CreateStep()
     {
-        string url = "lvl"+ currentLevel + "/ prefabs/" + Random.Range(1, 4).ToString();
+        string url = "lvl" + currentLevel + "/prefabs/" + Random.Range(1, 4).ToString();
         var tempObj = Instantiate(Resources.Load(url, typeof(GameObject)) as GameObject);
         tempObj.transform.SetParent(gameObject.transform);
 

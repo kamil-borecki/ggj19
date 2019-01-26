@@ -6,6 +6,7 @@ using UnityEngine.Video;
 public class CutSceneController : MonoBehaviour
 {
     public State state;
+    public string gameSceneName = "test";
 
     private VideoPlayer videoPlayer;
 
@@ -15,7 +16,7 @@ public class CutSceneController : MonoBehaviour
         videoPlayer = gameObject.GetComponent<VideoPlayer>();
         string url = "Assets/Resources/lvl" + state.currentLevel + "/video/1.mp4";
         videoPlayer.url = url;
-        videoPlayer.loopPointReached += PreloadScene;
+        videoPlayer.loopPointReached += LoadScene;
     }
 
     // Update is called once per frame
@@ -24,14 +25,8 @@ public class CutSceneController : MonoBehaviour
 
     }
 
-    private void PreloadScene(VideoPlayer vp)
-    {
-        SceneManager.LoadSceneAsync("test");
-    }
-
     private void LoadScene(VideoPlayer vp)
     {
-
-        SceneManager.SetActiveScene(SceneManager.GetSceneByName("test"));
+        SceneManager.LoadSceneAsync("test");
     }
 }
