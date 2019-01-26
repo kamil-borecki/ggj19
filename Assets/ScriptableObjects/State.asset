@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: State
   m_EditorClassIdentifier: 
   currentLevel: 0
-  nextLevel: 8
-  stepsVariations: 3
+  nextLevel: 1
   background: {fileID: 0}
