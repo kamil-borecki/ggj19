@@ -13,7 +13,7 @@ public class StepsSpawner : MonoBehaviour
     public float routeWidthRandomFactor = 0.1f;
 
     private List<GameObject> steps = new List<GameObject>();
-    private bool updateOnce = true;
+    private bool stepsMoved = false;
     private float currentHeight = 0;
     private string currentLevel;
 
@@ -29,22 +29,22 @@ public class StepsSpawner : MonoBehaviour
     void Update()
     {
         // TODO ten if nie powinien sprawdzać co klatkę
-        if (updateOnce)
+        if (!stepsMoved)
         {
             UpdateStepsPositions();
         }
     }
 
-    void CreateSteps() 
+    private void CreateSteps() 
     {
-        for(int i = 0; i < stepsCount; i++)
+        for(int i = 0; i < stepsCount-1; i++)
         {
-            var step = CreateStep();
-            steps.Add(step);
+            steps.Add(CreateStep());
         }
+        steps.Add(CreateFinalStep());
     }
 
-    void UpdateStepsPositions()
+    private void UpdateStepsPositions()
     {
         for (int i = 0; i<steps.Count; i++)
         {
@@ -52,9 +52,12 @@ public class StepsSpawner : MonoBehaviour
 
             steps[i].transform.localPosition = new Vector3(-routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor), -1);
             i++;
-            steps[i].transform.localPosition = new Vector3(routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor), -1);
+            if (steps[i])
+            {
+                steps[i].transform.localPosition = new Vector3(routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor), -1);
+            }
         }
-        updateOnce = !updateOnce;
+        stepsMoved = !stepsMoved;
     }
 
     private GameObject CreateStep()
@@ -64,5 +67,13 @@ public class StepsSpawner : MonoBehaviour
         tempObj.transform.SetParent(gameObject.transform);
 
         return tempObj;
+    }
+
+    private GameObject CreateFinalStep()
+    {
+        GameObject final = CreateStep();
+        final.AddComponent<ChangeScene>();
+
+        return final;
     }
 }
