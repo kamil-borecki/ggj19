@@ -7,6 +7,7 @@ public class StepsSpawner : MonoBehaviour
     public State state;
 
     public int stepsCount = 10;
+    public int stepsVariations = 3;
     public float stepDistance = 0.07f;
     public float stepDistanceRandomFactor = 0.05f;
     public float routeWidth = 0.3f;
@@ -58,7 +59,7 @@ public class StepsSpawner : MonoBehaviour
 
     private GameObject CreateStep()
     {
-        string url = "lvl" + currentLevel + "/prefabs/" + Random.Range(1, 4).ToString();
+        string url = "lvl" + currentLevel + "/prefabs/" + Random.Range(1, stepsVariations+1).ToString();
         var tempObj = Instantiate(Resources.Load(url, typeof(GameObject)) as GameObject);
         tempObj.transform.SetParent(gameObject.transform);
 
