@@ -16,6 +16,7 @@ public class Spawn : MonoBehaviour
     float y;
     float z;
     Vector3 pos;
+    public List<float> paths;
 
     //time
     public float minSecondsBetweenSpawning = 3.0f;
@@ -50,10 +51,10 @@ public class Spawn : MonoBehaviour
     }
     public void SpawnRandom()
     {
-        x = Random.Range(-7, 7);
+        x = Random.Range(0, paths.Count);
         y = 15;
-        z = -6;
-        pos = new Vector3(x, y, z);
+        z = 0;
+        pos = new Vector3(paths[(int)x], y, z);
         int randomIndex = Random.Range(0, 2);
         //Instantiation of the Object
         Instantiate(things[randomIndex], transform.position = pos, Quaternion.identity);
