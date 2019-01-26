@@ -5,41 +5,59 @@ using System.Collections.Generic;
 public class StepsSpawner : MonoBehaviour
 {
     public int stepsCount = 10;
+    public float stepDistance = 0.07f;
+    public float stepDistanceRandomFactor = 0.05f;
+    public float routeWidth = 0.3f;
+    public float routeWidthRandomFactor = 0.1f;
 
     private List<GameObject> steps = new List<GameObject>();
+    private bool updateOnce = true;
+    private float currentHeight = 0;
 
-    // Use this for initialization
     void Start()
     {
-        print(gameObject.transform.position.normalized);
+        currentHeight = gameObject.GetComponent<MeshFilter>().mesh.bounds.min[1];
+
         CreateSteps();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        // TODO ten if nie powinien sprawdzać co klatkę
+        if (updateOnce)
+        {
+            UpdateStepsPositions();
+        }
     }
 
     void CreateSteps() 
     {
         for(int i = 0; i < stepsCount; i++)
         {
-            var step = CreateStep(i);
-            step.transform.localPosition = new Vector3(0, 0, 0);
-            Debug.Log(step.name);
-            Debug.Log(step.transform.position.normalized);
+            var step = CreateStep();
+            steps.Add(step);
         }
     }
 
-    private GameObject CreateStep(int number)
+    void UpdateStepsPositions()
     {
-        string objName = "Created step " + number.ToString();
-        var tempObj = new GameObject(objName);
-        tempObj.AddComponent<MeshFilter>();
-        tempObj.AddComponent<BoxCollider2D>();
-        tempObj.AddComponent<Rigidbody2D>();
-        tempObj.transform.parent = gameObject.transform;
+        for (int i = 0; i<steps.Count; i++)
+        {
+            currentHeight += stepDistance;
+
+            steps[i].transform.localPosition = new Vector3(-routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor), -1);
+            i++;
+            steps[i].transform.localPosition = new Vector3(routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor), -1);
+        }
+        updateOnce = !updateOnce;
+    }
+
+    private GameObject CreateStep()
+    {
+        string url = "lvl1/prefabs/" + Random.Range(1, 4).ToString();
+        var tempObj = Instantiate(Resources.Load(url, typeof(GameObject)) as GameObject);
+        tempObj.transform.SetParent(gameObject.transform);
 
         return tempObj;
     }
