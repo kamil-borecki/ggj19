@@ -376,9 +376,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d621d9138f6e84128ae0b931e2a43717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: {fileID: 0}
+  state: {fileID: 11400000, guid: a19e9dc3c627f4bf68656bcdaa8f0c74, type: 2}
   stepsCount: 10
-  stepsVariations: 3
   stepDistance: 0.07
   stepDistanceRandomFactor: 0.05
   routeWidth: 0.3
