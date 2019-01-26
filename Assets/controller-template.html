@@ -1,0 +1,153 @@
+
+<html>
+<head>
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+  <script type="text/javascript" src="https://www.airconsole.com/api/airconsole-1.7.0.js"></script>
+  <style type=text/css>
+  /* the style sheet dictates what our elements (buttons, backgrounds etc.) will look like. */
+
+      .button {
+          background: #3B3B3B;
+          color: white;
+          font-family: Arial;
+          font-size: 14px;
+          padding: 5px 10px 5px 10px;
+          border: solid #1f1f1f 2px;
+          -webkit-border-radius: 11;
+          -moz-border-radius: 11;
+          border-radius: 6px;
+          width: 50%;
+          height: 50%;
+          text-align: left;
+          box-sizing: border-box;
+          float: left;
+      }
+      .wrapper{
+          display: none;
+      }
+      .opened{
+          display: block;
+      }
+
+
+  </style>
+  
+  <script type="text/javascript">
+
+      var airconsole;
+
+  function App() {
+      var me = this;
+      me.airconsole = new AirConsole({"orientation": "landscape", "synchronize_time" : "true"});
+      me.airconsole.onMessage = function(from, data) {
+      var dataParsed = JSON.parse(data);
+      var wrappers = document.getElementsByClassName('wrapper');
+      for(var wrapper of wrappers){
+wrapper.classList.remove('opened');
+      }
+      switch(dataParsed.count){
+      case 1:
+        document.getElementById('one').classList.add("opened");
+        break
+      case 2:
+        if(dataParsed.index == 0){
+            document.getElementById('one').classList.add("opened");
+        }else{
+            document.getElementById('two').classList.add("opened");
+        }
+        break;
+    case 3:
+        switch(dataParsed.index){
+            case 0:
+                document.getElementById('user1').classList.add("opened");
+            break;
+            case 1:
+                document.getElementById('user2').classList.add("opened");
+            break;
+            case 2:
+                document.getElementById('two').classList.add("opened");
+                break;
+        }
+        break;
+      case 4:
+        switch(dataParsed.index){
+            case 0:
+                document.getElementById('user1').classList.add("opened");
+            break;
+            case 1:
+                document.getElementById('user2').classList.add("opened");
+            break;
+            case 2:
+                document.getElementById('user3').classList.add("opened");
+                break;
+            case 3:
+                document.getElementById('user4').classList.add("opened");
+        }
+      };
+      };
+   
+   
+
+      /*
+       * Here we are adding support for mouse events manually.
+       * --> WE STRONGLY ENCOURAGE YOU TO USE THE AIRCONSOLE CONTROLS LIBRARY
+       * WHICH IS EVEN BETTER (BUT WE DONT WANT TO BLOAT THE CODE HERE).
+       * https://github.com/AirConsole/airconsole-controls/
+       *
+       * DO NOT USE ONCLICK HANDLERS.
+       * THEY ADD A 200MS DELAY!
+       */
+      if (!("ontouchstart" in document.createElement("div"))) {
+        var elements = document.getElementsByTagName("*");
+        for (var i = 0; i < elements.length; ++i) {
+          var element = elements[i];
+          var ontouchstart = element.getAttribute("ontouchstart");
+          if (ontouchstart) {
+            element.setAttribute("onmousedown", ontouchstart);
+          }
+          var ontouchend = element.getAttribute("ontouchend");
+          if (ontouchend) {
+            element.setAttribute("onmouseup", ontouchend);
+          }
+        }
+      }
+    }
+      App.prototype.sendMessage = function(msg) {
+      console.log('xdddd');
+      this.airconsole.message(AirConsole.SCREEN, msg);
+    };
+       App.prototype.calibrateButton = function(msg) {
+      var me = this;
+      me.alpha_calibration = me.last_motion_event["alpha"];
+    };
+
+  </script>
+</head>
+<body onload="window.app = new App()">
+    <!-- Add your HTML elements here -->
+    <div class="wrapper" id="one">
+        <div class="button" ontouchstart="window.app.sendMessage('leftHand')" ontouchend="window.app.sendMessage('leftHandEnd')">left</div>
+        <div class="button" ontouchstart="window.app.sendMessage('rightHand')" ontouchend="window.app.sendMessage('rightHandEnd')">right</div>
+            <div class="button" ontouchstart="window.app.sendMessage('leftBody')" ontouchend="window.app.sendMessage('leftBodyEnd')">left body</div>
+        <div class="button" ontouchstart="window.app.sendMessage('rightBody')" ontouchend="window.app.sendMessage('rightBodyEnd')">right body</div>
+
+    
+    </div>
+    <div class="wrapper" id="two">
+           <div class="button" ontouchstart="window.app.sendMessage('leftBody')" ontouchend="window.app.sendMessage('leftBodyEnd')">left body</div>
+        <div class="button" ontouchstart="window.app.sendMessage('rightBody')" ontouchend="window.app.sendMessage('rightBodyEnd')">right body</div>
+    </div>
+    <div class="wrapper" id="user1">
+        <div class="button" ontouchstart="window.app.sendMessage('leftHand')" ontouchend="window.app.sendMessage('leftHandEnd')">left</div>
+    </div>
+    <div class="wrapper" id="user2">
+        <div class="button" ontouchstart="window.app.sendMessage('rightHand')" ontouchend="window.app.sendMessage('rightHandEnd')">right</div>
+    </div>
+    <div class="wrapper" id="user3">
+  <div class="button" ontouchstart="window.app.sendMessage('leftBody')" ontouchend="window.app.sendMessage('leftBodyEnd')">left body</div>
+      </div>
+    <div class="wrapper" id="user4">
+        <div class="button" ontouchstart="window.app.sendMessage('rightBody')" ontouchend="window.app.sendMessage('rightBodyEnd')">right body</div>
+    </div>
+</body>
+</html>
