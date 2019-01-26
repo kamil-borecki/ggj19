@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FallingThingsTest : MonoBehaviour
+public class FallingThings : MonoBehaviour
 {
     public float fallSpeed = 8.0f;
 
@@ -14,13 +14,6 @@ public class FallingThingsTest : MonoBehaviour
 
     }
 
-    void OnMouseDown()
-    {
-
-        GetComponent<Renderer>().enabled = false;
-
-    }
+   
 
 }
-
-
