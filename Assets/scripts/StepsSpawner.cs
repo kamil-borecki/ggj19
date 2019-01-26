@@ -19,7 +19,7 @@ public class StepsSpawner : MonoBehaviour
     void Start()
     {
         //currentHeight = gameObject.GetComponent<MeshFilter>().mesh.bounds.min[1];
-        currentLevel = state.currentLevelNumber.ToString();
+        currentLevel = state.nextLevel.ToString();
 
         CreateSteps();
     }
