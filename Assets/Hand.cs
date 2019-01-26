@@ -32,15 +32,6 @@ public class Hand : MonoBehaviour
                 rigid.constraints = RigidbodyConstraints2D.None;
                 playerController.isLeftGrabbed = false;
             }
-            if (Input.GetKeyUp("k"))
-            {
-                if (isGrab && isOverShelf)
-                {
-                    rigid.constraints = RigidbodyConstraints2D.FreezePosition;
-                    playerController.isLeftGrabbed = true;
-                }
-
-            }
         }
         else
         {
@@ -50,18 +41,6 @@ public class Hand : MonoBehaviour
                 rigid.constraints = RigidbodyConstraints2D.None;
                 playerController.isRightGrabbed = false;
             }
-
-            if (Input.GetKeyUp("l"))
-            {
-                if (isGrab && isOverShelf)
-                {
-                    rigid.constraints = RigidbodyConstraints2D.FreezePosition;
-                    playerController.isRightGrabbed = true;
-
-                }
-
-            }
-
         }
         if (!playerController.isLeftGrabbed && !playerController.isRightGrabbed)
         {
@@ -69,26 +48,29 @@ public class Hand : MonoBehaviour
         }
 
         force.force = new Vector2(0, yForce);
-       
-           
-
     }
 
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        //ContactPoint contact = collision.contacts[0];
-        //Quaternion rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
-        //Vector3 pos = contact.point;
+
         isOverShelf = true;
     }
 
     void OnTriggerExit2D(Collider2D col)
     {
-        //ContactPoint contact = collision.contacts[0];
-        //Quaternion rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
-        //Vector3 pos = contact.point;
         isOverShelf = false;
+    }
+    void HandEnd()
+    {
+
+      
+        if (isGrab && isOverShelf)
+        {
+            rigid.constraints = RigidbodyConstraints2D.FreezePosition;
+            playerController.isRightGrabbed = true;
+        }
+   
     }
 
 }
