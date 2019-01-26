@@ -191,6 +191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: {fileID: 11400000, guid: a19e9dc3c627f4bf68656bcdaa8f0c74, type: 2}
+  gameSceneName: moving_scene
 --- !u!1 &1253262401
 GameObject:
   m_ObjectHideFlags: 0
