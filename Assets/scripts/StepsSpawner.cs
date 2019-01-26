@@ -80,7 +80,6 @@ public class StepsSpawner : MonoBehaviour
     private GameObject CreateStep()
     {
         string url = "lvl" + currentLevel + "/steps/" + Random.Range(1, stepsVariations+1).ToString();
-        Debug.Log(url);
         var tempObj = Instantiate(Resources.Load(url, typeof(GameObject)) as GameObject);
         tempObj.transform.SetParent(gameObject.transform);
 
