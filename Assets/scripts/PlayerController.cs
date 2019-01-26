@@ -35,7 +35,8 @@ public class PlayerController : MonoBehaviour
     {
         leftHand |= (string)data == "leftHand";
         rightHand |= (string)data == "rightHand";
-
+        isLeftGrabbed |= !leftHand;
+        isRightGrabbed |= !leftHand;
         if ((string)data == "leftHandEnd")
         {
             leftHand = false;
@@ -56,7 +57,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
     
-        isLeftGrabbed = isRightGrabbed = true;
+        isLeftGrabbed = true;
     }
 
     // Update is called once per frame

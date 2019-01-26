@@ -41,15 +41,17 @@ public class Player : MonoBehaviour
         }
         if(playerController.leftHand || playerController.rightHand)
         {
-            yForce = yPower;
+
         }
         if (!playerController.isLeftGrabbed && !playerController.isRightGrabbed) {
             xForce = yForce = 0;
         }
-        if(xForce != 0)
+        if(playerController.leftHand || playerController.rightHand)
         {
+
+            yForce = yPower;
             headAnimator.SetBool("looking", true);
-            if(xForce < 0)
+            if(playerController.leftHand)
             {
                 head.GetComponent<SpriteRenderer>().flipX = true;
             }
@@ -68,12 +70,16 @@ public class Player : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "end" || collision.tag == "endThing")
+        if(collision.tag == "end")
         {
             Debug.Log(collision.tag);
             state.currentLevel = 0;
             state.nextLevel = 1;
             SceneManager.LoadSceneAsync(cutSceneName);
+        }
+        if(collision.tag == "endThing")
+        {
+            playerController.isLeftGrabbed = playerController.isRightGrabbed = false;
         }
 
     }

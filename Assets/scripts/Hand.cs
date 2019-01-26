@@ -31,22 +31,28 @@ public class Hand : MonoBehaviour
         float yForce = 0;
         if (isLeft)
         {
+            if (playerController.leftHand || !playerController.isLeftGrabbed)
+            {
+                rigid.constraints = RigidbodyConstraints2D.None;
+                isGrabbed = false;
+            }
             if (playerController.leftHand)
             {
                 yForce = yPower;
-                rigid.constraints = RigidbodyConstraints2D.None;
-                playerController.isLeftGrabbed = false;
-                isGrabbed = false;
+
             }
         }
         else
         {
+            if (playerController.rightHand || !playerController.isRightGrabbed)
+            {
+                rigid.constraints = RigidbodyConstraints2D.None;
+                isGrabbed = false;
+            }
             if (playerController.rightHand)
             {
                 yForce = yPower;
-                rigid.constraints = RigidbodyConstraints2D.None;
-                playerController.isRightGrabbed = false;
-                isGrabbed = false;
+
             }
         }
         if (!playerController.isLeftGrabbed && !playerController.isRightGrabbed)
