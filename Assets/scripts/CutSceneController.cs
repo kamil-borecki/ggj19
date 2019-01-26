@@ -21,7 +21,7 @@ public class CutSceneController : MonoBehaviour
 
     private void LoadScene(VideoPlayer vp)
     {
-        SceneManager.LoadSceneAsync("test");
+        SceneManager.LoadSceneAsync(gameSceneName);
         state.currentLevel++;
         state.nextLevel++;
     }
