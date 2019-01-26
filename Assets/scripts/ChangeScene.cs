@@ -4,23 +4,10 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
-    public State state;
-    public string cutSceneName = "CutScene";
+    public string cutSceneName = "cutscene";
 
-    private bool temp = false; //top of level reached - To Be Implemented
-
-    // Use this for initialization
-    void Start()
+    void OnTriggerEnter2D()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (temp)
-        {
-            SceneManager.LoadSceneAsync(cutSceneName);
-        }
+        SceneManager.LoadSceneAsync(cutSceneName);
     }
 }
