@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3937430046560490797}
   - component: {fileID: 9014246028301921700}
   - component: {fileID: 3380283614480667894}
+  - component: {fileID: 6931432476087711192}
   m_Layer: 0
   m_Name: Orange_Box32x32
   m_TagString: Untagged
@@ -128,3 +129,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &6931432476087711192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078400009691437846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9813ca56428b64983940748dbab44c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: {fileID: 11400000, guid: a19e9dc3c627f4bf68656bcdaa8f0c74, type: 2}
+  cutSceneName: cutscene

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1469608656638618927}
   - component: {fileID: 3115319568001579380}
   - component: {fileID: 4216204952285771894}
+  - component: {fileID: 8417799441975327035}
   m_Layer: 0
   m_Name: ziemniak
   m_TagString: Untagged
@@ -78,7 +79,7 @@ SpriteRenderer:
   m_Size: {x: 16.29, y: 15.83}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &3115319568001579380
@@ -128,3 +129,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 16.29, y: 15.83}
   m_EdgeRadius: 0
+--- !u!114 &8417799441975327035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469608656638618922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9813ca56428b64983940748dbab44c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: {fileID: 11400000, guid: a19e9dc3c627f4bf68656bcdaa8f0c74, type: 2}
+  cutSceneName: cutscene

@@ -29,10 +29,9 @@ public class StepsSpawner : MonoBehaviour
         CreateSteps();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        // TODO ten if nie powinien sprawdzać co klatkę
+        // TODO dont check every frame
         if (!stepsMoved)
         {
             UpdateStepsPositions();

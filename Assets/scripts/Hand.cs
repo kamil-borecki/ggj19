@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Hand : MonoBehaviour
 {
@@ -12,6 +13,10 @@ public class Hand : MonoBehaviour
     private PlayerController playerController;
     private ConstantForce2D force;
     private bool isOverShelf = false;
+
+    public State state;
+    public string cutSceneName = "cutscene";
+
     void Start()
     {
         rigid = this.GetComponent<Rigidbody2D>();
@@ -58,7 +63,9 @@ public class Hand : MonoBehaviour
         }
         if(col.tag == "end")
         {
-            Debug.Log("XD UMAR");
+            state.currentLevel = 0;
+            state.nextLevel = 1;
+            SceneManager.LoadSceneAsync(cutSceneName);
         }
 
     }
