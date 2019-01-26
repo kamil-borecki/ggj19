@@ -68,11 +68,13 @@ public class Player : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "end")
-        { 
+        if(collision.tag == "end" || collision.tag == "endThing")
+        {
+            Debug.Log(collision.tag);
             state.currentLevel = 0;
             state.nextLevel = 1;
             SceneManager.LoadSceneAsync(cutSceneName);
         }
+
     }
 }

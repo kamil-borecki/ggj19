@@ -54,7 +54,7 @@ public class SpawnThings : MonoBehaviour
         pos = new Vector2(paths[(int)x], y);
         int randomIndex = Random.Range(0, things.Length);
         GameObject obj = Instantiate(things[randomIndex], transform.position = pos, Quaternion.identity);
-        obj.tag = "end";
+        obj.tag = "endThing";
         obj.GetComponent<Rigidbody2D>().mass = Random.Range(thingMassFrom, thingMassTo);
 
     }
