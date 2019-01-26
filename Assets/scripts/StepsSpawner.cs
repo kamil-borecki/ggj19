@@ -6,26 +6,26 @@ public class StepsSpawner : MonoBehaviour
 {
     public State state;
 
-    public int stepsCount = 10;
-    public int stepsVariations = 3;
-    public float stepDistance = 0.07f;
-    public float stepDistanceRandomFactor = 0.05f;
-    public float routeWidth = 0.3f;
-    public float routeWidthRandomFactor = 0.1f;
-
-    private List<GameObject> steps = new List<GameObject>();
-    private GameObject finishLine;
-    private float currentHeight = 0;
+    private int stepsCount;
+    private int stepsVariations;
+    private float stepDistance;
+    private float stepDistanceRandomFactor;
+    private float routeWidth;
+    private float routeWidthRandomFactor;
     private string currentLevel;
+
+    private GameObject finishLine;
+
+    private float currentHeight = 0;
+    private List<GameObject> steps = new List<GameObject>();
 
     // TODO get rid of this
     private bool stepsMoved = false;
 
     void Start()
     {
-        //currentHeight = gameObject.GetComponent<MeshFilter>().mesh.bounds.min[1];
+        SetupLevel(state.levels[state.currentLevel-1]);
         currentLevel = state.currentLevel.ToString();
-
         CreateSteps();
     }
 
@@ -37,6 +37,16 @@ public class StepsSpawner : MonoBehaviour
         {
             UpdateStepsPositions();
         }
+    }
+
+    private void SetupLevel(Level level)
+    {
+        stepsCount = level.stepsCount;
+        stepsVariations = level.stepsVariations;
+        stepDistance = level.stepDistance;
+        stepDistanceRandomFactor = level.stepDistanceRandomFactor;
+        routeWidth = level.routeWidth;
+        routeWidthRandomFactor = level.routeWidthRandomFactor;
     }
 
     private void CreateSteps()
@@ -55,9 +65,9 @@ public class StepsSpawner : MonoBehaviour
             currentHeight += stepDistance;
 
             steps[i].transform.localPosition = new Vector2(-routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor));
-            i++;
-            if (steps[i])
+            if (steps[i+1])
             {
+                i++;
                 steps[i].transform.localPosition = new Vector2(routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor));
             }
         }
