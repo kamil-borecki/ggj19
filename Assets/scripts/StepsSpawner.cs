@@ -22,8 +22,13 @@ public class StepsSpawner : MonoBehaviour
     // TODO get rid of this
     private bool stepsMoved = false;
 
-    void Start()
+    void Awake()
     {
+        if (state.currentLevel == 0)
+        {
+            state.currentLevel = 1;
+        }
+
         SetupLevel(state.levels[state.currentLevel-1]);
         currentLevel = state.currentLevel.ToString();
         CreateSteps();
@@ -64,7 +69,7 @@ public class StepsSpawner : MonoBehaviour
             currentHeight += stepDistance;
 
             steps[i].transform.localPosition = new Vector2(-routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor));
-            if (steps[i+1])
+            if (i+1 < steps.Count && steps[i+1])
             {
                 i++;
                 steps[i].transform.localPosition = new Vector2(routeWidth + Random.Range(0f, routeWidthRandomFactor), currentHeight + Random.Range(0f, stepDistanceRandomFactor));

@@ -16,7 +16,6 @@ public class Hand : MonoBehaviour
     public bool isGrabbed = false;
 
     public State state;
-    public string cutSceneName = "cutscene";
 
     void Start()
     {
@@ -32,22 +31,28 @@ public class Hand : MonoBehaviour
         float yForce = 0;
         if (isLeft)
         {
+            if (playerController.leftHand || !playerController.isLeftGrabbed)
+            {
+                rigid.constraints = RigidbodyConstraints2D.None;
+                isGrabbed = false;
+            }
             if (playerController.leftHand)
             {
                 yForce = yPower;
-                rigid.constraints = RigidbodyConstraints2D.None;
-                playerController.isLeftGrabbed = false;
-                isGrabbed = false;
+
             }
         }
         else
         {
+            if (playerController.rightHand || !playerController.isRightGrabbed)
+            {
+                rigid.constraints = RigidbodyConstraints2D.None;
+                isGrabbed = false;
+            }
             if (playerController.rightHand)
             {
                 yForce = yPower;
-                rigid.constraints = RigidbodyConstraints2D.None;
-                playerController.isRightGrabbed = false;
-                isGrabbed = false;
+
             }
         }
         if (!playerController.isLeftGrabbed && !playerController.isRightGrabbed)
@@ -71,12 +76,7 @@ public class Hand : MonoBehaviour
         {
             isOverShelf = true;
         }
-        if(col.tag == "end")
-        {
-            state.currentLevel = 0;
-            state.nextLevel = 1;
-            SceneManager.LoadSceneAsync(cutSceneName);
-        }
+
 
     }
 
