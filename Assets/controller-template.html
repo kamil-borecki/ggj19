@@ -125,11 +125,18 @@ wrapper.classList.remove('opened');
 </head>
 <body onload="window.app = new App()">
     <!-- Add your HTML elements here -->
+    <div class="wrapper" id="full">
+        <div class="button" ontouchstart="window.app.sendMessage('leftHand')" ontouchend="window.app.sendMessage('leftHandEnd')">left</div>
+        <div class="button" ontouchstart="window.app.sendMessage('rightHand')" ontouchend="window.app.sendMessage('rightHandEnd')">right</div>
+        <div class="button" ontouchstart="window.app.sendMessage('leftBody')" ontouchend="window.app.sendMessage('leftBodyEnd')">left body</div>
+        <div class="button" ontouchstart="window.app.sendMessage('rightBody')" ontouchend="window.app.sendMessage('rightBodyEnd')">right body</div>
+
+    
+    </div>
     <div class="wrapper" id="one">
         <div class="button" ontouchstart="window.app.sendMessage('leftHand')" ontouchend="window.app.sendMessage('leftHandEnd')">left</div>
         <div class="button" ontouchstart="window.app.sendMessage('rightHand')" ontouchend="window.app.sendMessage('rightHandEnd')">right</div>
-            <div class="button" ontouchstart="window.app.sendMessage('leftBody')" ontouchend="window.app.sendMessage('leftBodyEnd')">left body</div>
-        <div class="button" ontouchstart="window.app.sendMessage('rightBody')" ontouchend="window.app.sendMessage('rightBodyEnd')">right body</div>
+       
 
     
     </div>
