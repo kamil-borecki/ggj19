@@ -52,13 +52,24 @@ public class Hand : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
+        if (col.tag == "shelf")
+        {
+            isOverShelf = true;
+        }
+        if(col.tag == "end")
+        {
+            Debug.Log("XD UMAR");
+        }
 
-        isOverShelf = true;
     }
 
     void OnTriggerExit2D(Collider2D col)
     {
-        isOverShelf = false;
+        if (col.tag == "shelf")
+        {
+            isOverShelf = false;
+        }
+
     }
     void HandEnd()
     {
