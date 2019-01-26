@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cc47418e53b248b7807138e2dd4ef1b, type: 3}
   m_Name: State
   m_EditorClassIdentifier: 
-  currentLevel: 1
+  currentLevel: 0
   nextLevel: 1
   stepsVariations: 3
   background: {fileID: 0}

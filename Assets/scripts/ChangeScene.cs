@@ -4,43 +4,23 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
+    public State state;
     public string cutSceneName = "CutScene";
 
-    private bool temp = false; //last step reached - To Be Implemented
-    private bool m_SceneLoaded = false;
+    private bool temp = false; //top of level reached - To Be Implemented
 
     // Use this for initialization
     void Start()
     {
-        StartCoroutine(DestroyScene());
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (temp && m_SceneLoaded)
+        if (temp)
         {
-            SceneManager.SetActiveScene(SceneManager.GetSceneByName(cutSceneName));
-        }
-    }
-
-    IEnumerator PreloadScene()
-    {
-        AsyncOperation async = SceneManager.LoadSceneAsync(cutSceneName);
-        while (!async.isDone)
-        {
-            yield return null;
-        }
-        m_SceneLoaded = true;
-    }
-
-    IEnumerator DestroyScene()
-    {
-        yield return new WaitForSeconds(10);
-        AsyncOperation async = SceneManager.UnloadSceneAsync(cutSceneName);
-        while (async.isDone)
-        {
-            yield return StartCoroutine(PreloadScene());
+            SceneManager.LoadSceneAsync(cutSceneName);
         }
     }
 }

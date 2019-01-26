@@ -19,14 +19,10 @@ public class CutSceneController : MonoBehaviour
         videoPlayer.loopPointReached += LoadScene;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     private void LoadScene(VideoPlayer vp)
     {
         SceneManager.LoadSceneAsync("test");
+        state.currentLevel++;
+        state.nextLevel++;
     }
 }

@@ -13,14 +13,16 @@ public class StepsSpawner : MonoBehaviour
     public float routeWidthRandomFactor = 0.1f;
 
     private List<GameObject> steps = new List<GameObject>();
-    private bool stepsMoved = false;
     private float currentHeight = 0;
     private string currentLevel;
+
+    // TODO get rid of this
+    private bool stepsMoved = false;
 
     void Start()
     {
         currentHeight = gameObject.GetComponent<MeshFilter>().mesh.bounds.min[1];
-        currentLevel = state.nextLevel.ToString();
+        currentLevel = state.currentLevel.ToString();
 
         CreateSteps();
     }
@@ -37,11 +39,11 @@ public class StepsSpawner : MonoBehaviour
 
     private void CreateSteps() 
     {
-        for(int i = 0; i < stepsCount-1; i++)
+        for(int i = 0; i < stepsCount; i++)
         {
             steps.Add(CreateStep());
         }
-        steps.Add(CreateFinalStep());
+        CreateFinalStepColider();
     }
 
     private void UpdateStepsPositions()
@@ -69,11 +71,8 @@ public class StepsSpawner : MonoBehaviour
         return tempObj;
     }
 
-    private GameObject CreateFinalStep()
+    private void CreateFinalStepColider()
     {
-        GameObject final = CreateStep();
-        final.AddComponent<ChangeScene>();
 
-        return final;
     }
 }
