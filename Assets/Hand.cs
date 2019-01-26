@@ -46,7 +46,7 @@ public class Hand : MonoBehaviour
         {
             yForce = 0;
         }
-
+        Debug.Log(yForce);
         force.force = new Vector2(0, yForce);
     }
 
@@ -68,7 +68,15 @@ public class Hand : MonoBehaviour
         if (isGrab && isOverShelf)
         {
             rigid.constraints = RigidbodyConstraints2D.FreezePosition;
-            playerController.isRightGrabbed = true;
+            if (isLeft)
+            {
+                playerController.isLeftGrabbed = true;
+            }
+            else
+            {
+                playerController.isRightGrabbed = true;
+
+            }
         }
    
     }

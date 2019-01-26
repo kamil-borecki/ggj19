@@ -11,7 +11,6 @@ public class StepsSpawner : MonoBehaviour
     public float stepDistanceRandomFactor = 0.05f;
     public float routeWidth = 0.3f;
     public float routeWidthRandomFactor = 0.1f;
-
     private List<GameObject> steps = new List<GameObject>();
     private bool updateOnce = true;
     private float currentHeight = 0;
@@ -19,8 +18,8 @@ public class StepsSpawner : MonoBehaviour
 
     void Start()
     {
-        currentHeight = gameObject.GetComponent<MeshFilter>().mesh.bounds.min[1];
-        currentLevel = state.currentLevel.ToString();
+        //currentHeight = gameObject.GetComponent<MeshFilter>().mesh.bounds.min[1];
+        currentLevel = state.currentLevelNumber.ToString();
 
         CreateSteps();
     }
@@ -59,7 +58,8 @@ public class StepsSpawner : MonoBehaviour
 
     private GameObject CreateStep()
     {
-        string url = "lvl"+ currentLevel + "/ prefabs/" + Random.Range(1, 4).ToString();
+        string url = "lvl"+ currentLevel + "/prefabs/" + Random.Range(1, 4).ToString();
+        Debug.Log(url);
         var tempObj = Instantiate(Resources.Load(url, typeof(GameObject)) as GameObject);
         tempObj.transform.SetParent(gameObject.transform);
 
