@@ -39,19 +39,15 @@ public class Player : MonoBehaviour
             xForce += xPower;
             yForce = yPower;
         }
-        if(playerController.leftHand || playerController.rightHand)
-        {
-
-        }
-        if (!playerController.isLeftGrabbed && !playerController.isRightGrabbed) {
+        if (!playerController.leftHandRef.isGrabbed && !playerController.rightHandRef.isGrabbed) {
             xForce = yForce = 0;
         }
-        if(playerController.leftHand || playerController.rightHand)
+        if(playerController.leftHandRef.isRaised || playerController.rightHandRef.isRaised)
         {
 
             yForce = yPower;
             headAnimator.SetBool("looking", true);
-            if(playerController.leftHand)
+            if(playerController.leftHandRef.isRaised)
             {
                 head.GetComponent<SpriteRenderer>().flipX = true;
             }
@@ -79,7 +75,7 @@ public class Player : MonoBehaviour
         }
         if(collision.tag == "endThing")
         {
-            playerController.isLeftGrabbed = playerController.isRightGrabbed = false;
+            playerController.leftHandRef.isGrabbed = playerController.rightHandRef.isGrabbed = false;
         }
 
     }
