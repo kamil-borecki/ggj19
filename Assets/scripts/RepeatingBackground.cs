@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RepeatingBackground : MonoBehaviour
 {
+    public Camera camera;
     private BoxCollider2D groundCollider;
     private float groundHeight;
 
@@ -11,7 +12,7 @@ public class RepeatingBackground : MonoBehaviour
     void Start()
     {
         groundCollider = GetComponent<BoxCollider2D>();
-        groundHeight = groundCollider.size.y;
+        groundHeight = groundCollider.size.y * transform.localScale.x;
     }
 
     // Update is called once per frame
@@ -19,16 +20,16 @@ public class RepeatingBackground : MonoBehaviour
     {
         //Debug.Log(groundHeight);
     }
+
     void OnBecameInvisible()
     {
-        Debug.Log("invisible " + transform.name);
-        if(Camera.main.transform.position.y > transform.position.y)
+        if(camera.transform.position.y > transform.position.y)
         {
-            transform.position = new Vector2(transform.position.x, transform.position.y + groundHeight);
+            transform.position = new Vector2(transform.position.x, transform.position.y + groundHeight * 2f);
         }
         else
         {
-            transform.position = new Vector2(transform.position.x, transform.position.y - groundHeight);
+            transform.position = new Vector2(transform.position.x, transform.position.y - groundHeight * 2f);
 
         }
     }
