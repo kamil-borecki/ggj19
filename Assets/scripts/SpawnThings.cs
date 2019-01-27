@@ -60,11 +60,9 @@ public class SpawnThings : MonoBehaviour
     private void LoadThings()
     {
         int lenght = state.levels[state.currentLevel-1].thingsVariantsCount;
-        Debug.Log(lenght);
         for(int i = 0; i < lenght; i++)
         {
             string str = "lvl" + currentLevel + "/things/" + (i + 1).ToString();
-            Debug.Log("lvl" + currentLevel + "/things/" + (i + 1).ToString());
             prefabsUrls.Add(str);
         }
     }
