@@ -11,6 +11,7 @@ public class ChangeScene : MonoBehaviour
         // TODO SETUP TAG ON CORPSE
         if (colider.tag == "Player")
         {
+            Debug.Log(colider.tag);
             SceneManager.LoadSceneAsync(cutSceneName);
         }
     }

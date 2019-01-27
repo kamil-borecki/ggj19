@@ -13,16 +13,22 @@ public class CutSceneController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        videoPlayer = gameObject.GetComponent<VideoPlayer>();
-        string url = "Assets/Resources/lvl" + state.currentLevel + "/video/1.mp4";
-        videoPlayer.url = url;
-        videoPlayer.loopPointReached += LoadScene;
+        if(state.currentLevel < state.levelSettings.Count)
+        {
+            videoPlayer = gameObject.GetComponent<VideoPlayer>();
+            string url = "Assets/Resources/lvl" + state.currentLevel + "/video/1.mp4";
+            videoPlayer.url = url;
+            videoPlayer.loopPointReached += LoadScene;
+        }
     }
 
     private void LoadScene(VideoPlayer vp)
     {
-        SceneManager.LoadSceneAsync(gameSceneName);
-        state.currentLevel++;
-        state.nextLevel++;
+        if (state.currentLevel < state.levelSettings.Count)
+        {
+            SceneManager.LoadSceneAsync(gameSceneName);
+            state.currentLevel++;
+            state.nextLevel++;
+        }
     }
 }

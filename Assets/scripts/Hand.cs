@@ -14,6 +14,7 @@ public class Hand : MonoBehaviour
     private ConstantForce2D force;
     private bool isOverShelf = false;
     public bool isGrabbed = false;
+    public bool isRaised = false;
 
     public State state;
 
@@ -28,34 +29,16 @@ public class Hand : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+     
         float yForce = 0;
-        if (isLeft)
+        if (isRaised)
         {
-            if (playerController.leftHand || !playerController.isLeftGrabbed)
-            {
-                rigid.constraints = RigidbodyConstraints2D.None;
-                isGrabbed = false;
-            }
-            if (playerController.leftHand)
-            {
-                yForce = yPower;
-
-            }
+            isGrabbed = false;
+            rigid.constraints = RigidbodyConstraints2D.None;
+            yForce = yPower;
         }
-        else
-        {
-            if (playerController.rightHand || !playerController.isRightGrabbed)
-            {
-                rigid.constraints = RigidbodyConstraints2D.None;
-                isGrabbed = false;
-            }
-            if (playerController.rightHand)
-            {
-                yForce = yPower;
 
-            }
-        }
-        if (!playerController.isLeftGrabbed && !playerController.isRightGrabbed)
+        if (!playerController.leftHandRef.isGrabbed && !playerController.rightHandRef.isGrabbed)
         {
             yForce = 0;
         }
@@ -92,19 +75,14 @@ public class Hand : MonoBehaviour
     {
 
       
-        if (isGrab && isOverShelf)
+        if (isGrab && isOverShelf && !isGrabbed)
         {
             isGrabbed = true;
             rigid.constraints = RigidbodyConstraints2D.FreezePosition;
-            if (isLeft)
-            {
-                playerController.isLeftGrabbed = true;
-            }
-            else
-            {
-                playerController.isRightGrabbed = true;
+           
+               playerController.SetGrabbed(isLeft);
 
-            }
+
         }
    
     }

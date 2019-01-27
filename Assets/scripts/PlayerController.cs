@@ -6,8 +6,10 @@ using Newtonsoft.Json.Linq;
 public class PlayerController : MonoBehaviour
 {
     // Start is called before the first frame update
-    public bool right, left, leftHand, rightHand, isLeftGrabbed, isRightGrabbed;
+    public static PlayerController instance;
+    public bool right, left;
     public Hand leftHandRef, rightHandRef;
+    public float scrollSpeed = -1.5f;
     public List<int> remoteUsers;
     private void Awake()
     {
@@ -30,21 +32,40 @@ public class PlayerController : MonoBehaviour
         sendMessageToDevices();
     }
 
+    public void SetGrabbed(bool isLeft)
+    {
+        if (isLeft)
+        {
+            leftHandRef.isGrabbed = true;
+            if(rightHandRef.transform.position.y < leftHandRef.transform.position.y)
+            {
+                GetComponent<CameraController>().newYPos = leftHandRef.transform.position.y + 3f;
+            }
+        }
+        else
+        {
+            rightHandRef.isGrabbed = true;
+            if (rightHandRef.transform.position.y > leftHandRef.transform.position.y)
+            {
+                GetComponent<CameraController>().newYPos = rightHandRef.transform.position.y + 3f;
+            }
+        }
+    }
 
     private void OnMessage(int DeviceID, JToken data)
     {
-        leftHand |= (string)data == "leftHand";
-        rightHand |= (string)data == "rightHand";
-        isLeftGrabbed |= !leftHand;
-        isRightGrabbed |= !leftHand;
+        leftHandRef.isRaised |= (string)data == "leftHand";
+        rightHandRef.isRaised |= (string)data == "rightHand";
+
+
         if ((string)data == "leftHandEnd")
         {
-            leftHand = false;
+            leftHandRef.isRaised = false;
             leftHandRef.BroadcastMessage("HandEnd");
         }
         if ((string)data == "rightHandEnd")
         {
-            rightHand = false;
+            rightHandRef.isRaised = false;
             rightHandRef.BroadcastMessage("HandEnd");
         }
 
@@ -56,21 +77,23 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-    
-        isLeftGrabbed = true;
+
+        leftHandRef.isGrabbed = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(remoteUsers.Count == 0)
+
+        if (remoteUsers.Count == 0)
         {
         
-        right = left = leftHand = rightHand = false;
+        right = left = leftHandRef.isRaised = rightHandRef.isRaised = false;
             left |= Input.GetKey("a");
             right |= Input.GetKey("d");
-            leftHand |= Input.GetKey("k");
-            rightHand |= Input.GetKey("l");
+            leftHandRef.isRaised |= Input.GetKey("k");
+            rightHandRef.isRaised |= Input.GetKey("l");
+
             if (Input.GetKeyUp("k"))
             {
                 leftHandRef.BroadcastMessage("HandEnd");
