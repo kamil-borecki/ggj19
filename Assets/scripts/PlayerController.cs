@@ -79,6 +79,7 @@ public class PlayerController : MonoBehaviour
     {
 
         leftHandRef.isGrabbed = true;
+        rightHandRef.isGrabbed = true;
     }
 
     // Update is called once per frame

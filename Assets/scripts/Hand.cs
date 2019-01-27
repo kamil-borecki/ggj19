@@ -38,6 +38,11 @@ public class Hand : MonoBehaviour
             yForce = yPower;
         }
 
+        if (!isGrabbed)
+        {
+            rigid.constraints = RigidbodyConstraints2D.None;
+
+        }
         if (!playerController.leftHandRef.isGrabbed && !playerController.rightHandRef.isGrabbed)
         {
             yForce = 0;
