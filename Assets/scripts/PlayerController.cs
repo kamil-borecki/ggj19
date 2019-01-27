@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
             leftHandRef.isGrabbed = true;
             if(rightHandRef.transform.position.y < leftHandRef.transform.position.y)
             {
-                GetComponent<CameraController>().newYPos = leftHandRef.transform.position.y + 3f;
+                GetComponent<CameraController>().newYPos = leftHandRef.transform.position.y + 2f;
             }
         }
         else
@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
             rightHandRef.isGrabbed = true;
             if (rightHandRef.transform.position.y > leftHandRef.transform.position.y)
             {
-                GetComponent<CameraController>().newYPos = rightHandRef.transform.position.y + 3f;
+                GetComponent<CameraController>().newYPos = rightHandRef.transform.position.y + 2f;
             }
         }
     }
