@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Level
 {
+    public string sceneName;
     public int stepsCount;
     public int stepsVariations;
     public float stepDistance;
@@ -12,6 +13,7 @@ public class Level
 
     public Level(LevelSettings levelSettings)
     {
+        sceneName = levelSettings.sceneName;
         stepsCount = levelSettings.stepsCount;
         stepsVariations = levelSettings.stepsVariantsCount;
         stepDistance = levelSettings.spaceBeetwenSteps;

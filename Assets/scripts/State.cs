@@ -5,8 +5,10 @@ using System.Collections.Generic;
 [System.Serializable]
 public class LevelSettings
 {
+    public string sceneName;
     public int stepsCount, stepsVariantsCount;
     public float spaceBeetwenSteps, stepsDistanceFactor, routeWidth, routeWidthFactor;
+
 }
 
 [CreateAssetMenu()]

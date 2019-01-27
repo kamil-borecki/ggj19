@@ -17,6 +17,9 @@ public class CutSceneController : MonoBehaviour
         {
             videoPlayer = gameObject.GetComponent<VideoPlayer>();
             string url = "Assets/Resources/lvl" + state.currentLevel + "/video/1.mp4";
+            Debug.Log(url);
+
+
             videoPlayer.url = url;
             videoPlayer.loopPointReached += LoadScene;
         }
@@ -26,7 +29,8 @@ public class CutSceneController : MonoBehaviour
     {
         if (state.currentLevel < state.levelSettings.Count)
         {
-            SceneManager.LoadSceneAsync(gameSceneName);
+
+            SceneManager.LoadSceneAsync(state.levelSettings[state.currentLevel].sceneName);
             state.currentLevel++;
             state.nextLevel++;
         }

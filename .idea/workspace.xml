@@ -2,570 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baad778a-d9d5-4064-9ce0-0a1bcf2e18cc" name="Default Changelist" comment="Merge branch 'master' of https://github.com/kamil-borecki/ggj19&#10;&#10;# Conflicts:&#10;#&#9;Assets/moving_scene.unity">
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/final/video/1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/final/video/1.mp4.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/kolo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/kolo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/sprites/polkachmurka.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/sprites/polkachmurka.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/sprites/polkachmurka2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/sprites/polkachmurka2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/sprites/polkachmurka3-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/sprites/polkachmurka3-2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/sprites/zegar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/sprites/zegar.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/Documentation for AndroidTV.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/Documentation for AndroidTV.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/Documentation_1.7.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/Documentation_1.7.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/README.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/basic.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/basic/ExampleBasicLogic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/basic/ExampleBasicLogic.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/basic/LogoAirConsole.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/basic/LogoAirConsole.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/basic/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/basic/Materials/Green.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/basic/Materials/Green.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/basic/Materials/ProfilePicturePlane.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/basic/Materials/ProfilePicturePlane.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/basic/basic.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/basic/basic.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/basic/controller.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/basic/controller.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gamestates.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/final/video.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gamestates/GamestateExampleLogic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gamestates/GamestateExampleLogic.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gamestates/controller-gamestates.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gamestates/controller-gamestates.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gamestates/gamestates.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gamestates/gamestates.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope/GyroscopeExampleLogic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope/GyroscopeExampleLogic.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope/gyroscope-controller.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope/gyroscope-controller.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope/gyroscope.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope/gyroscope.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope/materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/sprites.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope/materials/Cube1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope/materials/Cube1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope/materials/Cube2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope/materials/Cube2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope/materials/Sphere 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope/materials/Sphere 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope/materials/Sphere.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope/materials/Sphere.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope/materials/transparent.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/gyroscope/materials/transparent.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/platformer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/final.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/platformer/PlatformerExampleLogic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/platformer/PlatformerExampleLogic.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/platformer/PlayerCapsule.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/platformer/PlayerCapsule.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/platformer/Player_Platformer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/platformer/Player_Platformer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/platformer/platformer-controller.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/platformer/platformer-controller.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/platformer/platformer.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/platformer/platformer.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong/ExamplePongLogic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong/ExamplePongLogic.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong/controller.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong/controller.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong/materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong/materials/bouncy.physicsMaterial2D" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong/materials/bouncy.physicsMaterial2D.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong/pong.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong/pong.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong/scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong/scripts/Racket.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong/scripts/Racket.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong/sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong/sprites/ball.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong/sprites/ball.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong/sprites/player.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/pong/sprites/player.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/swipe.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/swipe/Player_Swipe.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/swipe/Player_Swipe.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/swipe/swipe-controller.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/swipe/swipe-controller.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/swipe/swipe.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/examples/swipe/swipe.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/extras.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/extras/HighScoreHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/extras/HighScoreHelper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/extras/controller-template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/extras/controller-template.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Android.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Android/WebViewPlugin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Android/WebViewPlugin.jar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Editor/UnityWebViewPostprocessBuild.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Editor/UnityWebViewPostprocessBuild.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Bson.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Bson/BsonBinaryType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Bson/BsonBinaryType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Bson/BsonBinaryWriter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Bson/BsonBinaryWriter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Bson/BsonObjectId.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Bson/BsonObjectId.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Bson/BsonReader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Bson/BsonReader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Bson/BsonToken.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Bson/BsonToken.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Bson/BsonType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Bson/BsonType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Bson/BsonWriter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Bson/BsonWriter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/ConstructorHandling.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/ConstructorHandling.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/BinaryConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/BinaryConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/BsonObjectIdConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/BsonObjectIdConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/CustomCreationConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/CustomCreationConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/DataSetConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/DataSetConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/DataTableConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/DataTableConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/DateTimeConverterBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/DateTimeConverterBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/EntityKeyMemberConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/EntityKeyMemberConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/ExpandoObjectConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/ExpandoObjectConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/IsoDateTimeConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/IsoDateTimeConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/JavaScriptDateTimeConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/JavaScriptDateTimeConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/JsonDateTimeSerializationMode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/JsonDateTimeSerializationMode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/KeyValuePairConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/KeyValuePairConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/RegexConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/RegexConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/StringEnumConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/StringEnumConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/XmlNodeConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Converters/XmlNodeConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/DefaultValueHandling.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/DefaultValueHandling.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/FormatterAssemblyStyle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/FormatterAssemblyStyle.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/IJsonLineInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/IJsonLineInfo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonArrayAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonArrayAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonConstructorAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonConstructorAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonContainerAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonContainerAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonConvert.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonConvert.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonConverterAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonConverterAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonConverterCollection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonConverterCollection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonIgnoreAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonIgnoreAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonObjectAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonObjectAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonPropertyAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonPropertyAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonReader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonReader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonReaderException.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonReaderException.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonSerializationException.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonSerializationException.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonSerializer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonSerializer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonSerializerSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonSerializerSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonTextReader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonTextReader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonTextWriter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonTextWriter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonToken.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonToken.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonValidatingReader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonValidatingReader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonWriter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonWriter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonWriterException.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/JsonWriterException.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/Extensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/Extensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/IJEnumerable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/IJEnumerable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JArray.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JArray.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JConstructor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JConstructor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JContainer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JContainer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JEnumerable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JEnumerable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JPath.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JPath.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JProperty.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JProperty.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JPropertyDescriptor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JPropertyDescriptor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JRaw.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JRaw.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JToken.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JToken.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JTokenEqualityComparer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JTokenEqualityComparer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JTokenReader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JTokenReader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JTokenType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JTokenType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JTokenWriter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JTokenWriter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JValue.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Linq/JValue.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/MemberSerialization.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/MemberSerialization.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/MissingMemberHandling.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/MissingMemberHandling.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/NullValueHandling.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/NullValueHandling.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/ObjectCreationHandling.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/ObjectCreationHandling.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/PreserveReferencesHandling.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/PreserveReferencesHandling.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/ReferenceLoopHandling.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/ReferenceLoopHandling.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Required.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Required.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/Extensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/Extensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchema.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchema.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaBuilder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaBuilder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaConstants.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaConstants.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaException.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaException.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaGenerator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaGenerator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaModel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaModelBuilder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaModelBuilder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaNodeCollection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaNodeCollection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaResolver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaResolver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaWriter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/JsonSchemaWriter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/UndefinedSchemaIdHandling.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/UndefinedSchemaIdHandling.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/ValidationEventArgs.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/ValidationEventArgs.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/ValidationEventHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Schema/ValidationEventHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/CachedAttributeGetter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/CachedAttributeGetter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/CamelCasePropertyNamesContractResolver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/CamelCasePropertyNamesContractResolver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/DefaultContractResolver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/DefaultContractResolver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/DefaultReferenceResolver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/DefaultReferenceResolver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/DefaultSerializationBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/DefaultSerializationBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/DynamicValueProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/DynamicValueProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/ErrorContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/ErrorContext.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/ErrorEventArgs.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/ErrorEventArgs.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/IContractResolver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/IContractResolver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/IReferenceResolver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/IReferenceResolver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/IValueProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/IValueProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonArrayContract.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonArrayContract.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonContract.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonContract.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonDictionaryContract.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonDictionaryContract.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonDynamicContract.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonDynamicContract.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonFormatterConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonFormatterConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonISerializableContract.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonISerializableContract.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonLinqContract.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonLinqContract.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonObjectContract.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonObjectContract.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonPrimitiveContract.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonPrimitiveContract.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonProperty.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonProperty.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonPropertyCollection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonPropertyCollection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonSerializerInternalBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonSerializerInternalBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonSerializerProxy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonSerializerProxy.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonStringContract.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonStringContract.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonTypeReflector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/JsonTypeReflector.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/LateBoundMetadataTypeAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/LateBoundMetadataTypeAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/ObjectConstructor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/ObjectConstructor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/OnErrorAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/OnErrorAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/ReflectionValueProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Serialization/ReflectionValueProvider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/SerializationBinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/SerializationBinder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/StreamingContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/StreamingContext.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/TypeNameHandling.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/TypeNameHandling.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/UpgradeLog.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/UpgradeLog.htm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/UpgradeLog2.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/UpgradeLog2.htm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/Base64Encoder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/Base64Encoder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/BidirectionalDictionary.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/BidirectionalDictionary.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/CollectionUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/CollectionUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/CollectionWrapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/CollectionWrapper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/ConvertUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/ConvertUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/DateTimeUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/DateTimeUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/DictionaryWrapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/DictionaryWrapper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/DynamicProxy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/DynamicProxy.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/DynamicProxyMetaObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/DynamicProxyMetaObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/DynamicReflectionDelegateFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/DynamicReflectionDelegateFactory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/DynamicUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/DynamicUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/DynamicWrapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/DynamicWrapper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/EnumUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/EnumUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/EnumValue.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/EnumValue.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/EnumValues.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/EnumValues.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/ILGeneratorExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/ILGeneratorExtensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/JavaScriptUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/JavaScriptUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/LateBoundReflectionDelegateFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/LateBoundReflectionDelegateFactory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/LinqBridge.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/LinqBridge.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/ListWrapper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/ListWrapper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/MathUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/MathUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/MethodCall.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/MethodCall.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/MiscellaneousUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/MiscellaneousUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/ReflectionDelegateFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/ReflectionDelegateFactory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/ReflectionUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/ReflectionUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/StringBuffer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/StringBuffer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/StringUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/StringUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/ThreadSafeStore.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/ThreadSafeStore.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/ValidationUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/Newtonsoft.Json/Utilities/ValidationUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebView.bundle.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebView.bundle/Contents.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebView.bundle/Contents/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebView.bundle/Contents/Info.plist.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebView.bundle/Contents/MacOS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebView.bundle/Contents/MacOS/WebView" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebView.bundle/Contents/MacOS/WebView.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebView.bundle/Contents/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebView.bundle/Contents/Resources/InfoPlist.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebView.bundle/Contents/Resources/InfoPlist.strings.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebViewObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebViewObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebViewSeparated.bundle.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebViewSeparated.bundle/Contents.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebViewSeparated.bundle/Contents/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebViewSeparated.bundle/Contents/Info.plist.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebViewSeparated.bundle/Contents/MacOS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebViewSeparated.bundle/Contents/MacOS/WebViewSeparated" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebViewSeparated.bundle/Contents/MacOS/WebViewSeparated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebViewSeparated.bundle/Contents/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebViewSeparated.bundle/Contents/Resources/InfoPlist.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/WebViewSeparated.bundle/Contents/Resources/InfoPlist.strings.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/iOS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/iOS/WebView.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/iOS/WebView.mm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/websocket-sharp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/websocket-sharp.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/x86_64.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/x86_64/WebView.bundle.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/x86_64/WebView.bundle/Contents.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/x86_64/WebView.bundle/Contents/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/x86_64/WebView.bundle/Contents/Info.plist.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/x86_64/WebView.bundle/Contents/MacOS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/x86_64/WebView.bundle/Contents/MacOS/WebView" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/x86_64/WebView.bundle/Contents/MacOS/WebView.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/x86_64/WebView.bundle/Contents/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/x86_64/WebView.bundle/Contents/Resources/InfoPlist.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/plugins/x86_64/WebView.bundle/Contents/Resources/InfoPlist.strings.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/resources/AirConsoleBg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/resources/AirConsoleBg.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/resources/AirConsoleLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/resources/AirConsoleLogo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/resources/AirConsoleLogoSmall.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/resources/AirConsoleLogoSmall.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/resources/AirConsoleLogoText.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/resources/AirConsoleLogoText.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/resources/android banner placeholder.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/resources/android banner placeholder.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/resources/androidtv-loadingscreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/resources/androidtv-loadingscreen.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/AirConsole.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/AirConsole.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/DebugLevel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/DebugLevel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/Settings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/Settings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/WebsocketListener.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/WebsocketListener.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/editor/Extentions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/editor/Extentions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/editor/Inspector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/editor/Inspector.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/editor/PlayMode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/editor/PlayMode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/editor/PostBuildProcess.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/editor/PostBuildProcess.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/editor/SettingWindow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/editor/SettingWindow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/editor/WebListener.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AirConsole/scripts/editor/WebListener.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/User.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/User.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/User.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/User.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/audio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/audio.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/audio/background.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/audio/background.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/audio/background.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/audio/background.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl0/video/1.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/lvl0/video/1.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl0/video/1.mp4.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/lvl0/video/1.mp4.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/4.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/Head.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/Head.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/Head.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/Head.controller.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/RightHand.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/RightHand.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/RightHand.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/RightHand.controller.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/dlon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/dlon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/dlon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/dlon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/dlon2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/dlon2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/dlon2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/dlon2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/hand_gripped.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/hand_gripped.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/hand_gripped.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/hand_gripped.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/hand_idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/hand_idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/hand_idle.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/hand_idle.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/head_back.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/head_back.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/head_back.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/head_back.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/head_idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/head_idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/head_idle.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/head_idle.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/head_spin.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/head_spin.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/head_spin.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/head_spin.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/plecak.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/plecak.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/plecak.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/plecak.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/przedramie.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/przedramie.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/przedramie.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/przedramie.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/ramie.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/ramie.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/sprites/ramie.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/common/sprites/ramie.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/things/DarkGrey_Box32x32.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/lvl1/things/kolo.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/things/DarkGrey_Box32x32.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/lvl1/things/kolo.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/things/Orange_Box32x32.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/things/zegar.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/things/Orange_Box32x32.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/things/ziemniak.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/things/ziemniak.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/things/zegar.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/things/kolo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/lvl1/things/kolo.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl2/steps/1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/steps/1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl2/steps/2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/steps/2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl2/steps/3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/steps/3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl2/things/DarkGrey_Box32x32.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl2/things/DarkGrey_Box32x32.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl2/things/Orange_Box32x32.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl2/things/Orange_Box32x32.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl2/things/ziemniak.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl2/things/ziemniak.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/AirConsole.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/AirConsole/TemplateData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/AirConsole/TemplateData/loading-screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/AirConsole/TemplateData/loading-screen.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/AirConsole/airconsole-unity-plugin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/AirConsole/airconsole-unity-plugin.js.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/AirConsole/controller.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/AirConsole/controller.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/AirConsole/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/AirConsole/index.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/AirConsole/rate-limiter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/AirConsole/rate-limiter.js.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/moving_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/moving_scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl2/things/zegar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/things/zegar.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/CutSceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/CutSceneController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/LevelClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/LevelClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/State.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/State.cs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -636,6 +80,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="FallingThings" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -677,7 +126,20 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ggj19" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ggj19" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -820,10 +282,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2947000" />
+    <option name="totallyTimeSpent" value="2955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -833,6 +295,7 @@
       <window_info id="Designer" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />

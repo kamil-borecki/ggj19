@@ -85,6 +85,12 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.Log("quit");
+
+            Application.Quit();
+        }
 
         if (remoteUsers.Count == 0)
         {
