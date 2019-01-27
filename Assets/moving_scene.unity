@@ -1312,7 +1312,8 @@ PrefabInstance:
       propertyPath: m_BackGroundColor.b
       value: 0.15294118
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3440119711789474748, guid: 77836331dc6694d6dae9f2aed81ab89e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 77836331dc6694d6dae9f2aed81ab89e, type: 3}
 --- !u!1 &1652141623
 GameObject:
