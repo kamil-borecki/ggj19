@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-using NDream.AirConsole;
-using Newtonsoft.Json.Linq;
+//using NDream.AirConsole;
+//using Newtonsoft.Json.Linq;
 
 public class PlayerController : MonoBehaviour
 {
@@ -13,9 +13,9 @@ public class PlayerController : MonoBehaviour
     public List<int> remoteUsers;
     private void Awake()
     {
-        AirConsole.instance.onMessage += OnMessage;
-        AirConsole.instance.onConnect += OnConnect;
-        AirConsole.instance.onDisconnect += OnDisconnect;
+        //AirConsole.instance.onMessage += OnMessage;
+        //AirConsole.instance.onConnect += OnConnect;
+        //AirConsole.instance.onDisconnect += OnDisconnect;
     }
     private void OnConnect(int device_id)
     {
@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnMessage(int DeviceID, JToken data)
+    private void OnMessage(int DeviceID, string data)
     {
         leftHandRef.isRaised |= (string)data == "leftHand";
         rightHandRef.isRaised |= (string)data == "rightHand";
@@ -107,24 +107,24 @@ public class PlayerController : MonoBehaviour
     }
     private void OnDestroy()
     {
-        if (AirConsole.instance != null)
-        {
-            AirConsole.instance.onMessage -= OnMessage;
-            AirConsole.instance.onConnect -= OnConnect;
-            AirConsole.instance.onDisconnect -= OnDisconnect;
+        //if (AirConsole.instance != null)
+        //{
+        //    AirConsole.instance.onMessage -= OnMessage;
+        //    AirConsole.instance.onConnect -= OnConnect;
+        //    AirConsole.instance.onDisconnect -= OnDisconnect;
 
-        }
+        //}
     }
     private void sendMessageToDevices()
     {
-        List<int> ids = AirConsole.instance.GetControllerDeviceIds();
-        foreach(int id in ids)
-        {
-            Dictionary<string, int> obj = new Dictionary<string, int>();
-            obj.Add("index", ids.IndexOf(id));
-            obj.Add("count", ids.Count);
-            AirConsole.instance.Message(id, Newtonsoft.Json.JsonConvert.SerializeObject(obj));
-        }
+        //List<int> ids = AirConsole.instance.GetControllerDeviceIds();
+        //foreach(int id in ids)
+        //{
+        //    Dictionary<string, int> obj = new Dictionary<string, int>();
+        //    obj.Add("index", ids.IndexOf(id));
+        //    obj.Add("count", ids.Count);
+        //    AirConsole.instance.Message(id, Newtonsoft.Json.JsonConvert.SerializeObject(obj));
+        //}
        
     }
 }
