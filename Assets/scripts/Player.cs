@@ -75,7 +75,9 @@ public class Player : MonoBehaviour
         }
         if(collision.tag == "endThing")
         {
-            playerController.leftHandRef.isGrabbed = playerController.rightHandRef.isGrabbed = false;
+            Debug.Log(collision.tag);
+            playerController.leftHandRef.isGrabbed = false;
+            playerController.rightHandRef.isGrabbed = false;
         }
 
     }
