@@ -5,7 +5,7 @@ using System.Collections.Generic;
 [System.Serializable]
 public class LevelSettings
 {
-    public int stepsCount, stepsVariantsCount;
+    public int stepsCount, stepsVariantsCount, thingsVariantsCount;
     public float spaceBeetwenSteps, stepsDistanceFactor, routeWidth, routeWidthFactor;
 }
 
