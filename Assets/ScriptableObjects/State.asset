@@ -15,3 +15,22 @@ MonoBehaviour:
   currentLevel: 0
   nextLevel: 1
   background: {fileID: 0}
+  levelSettings:
+  - stepsCount: 100
+    stepsVariantsCount: 3
+    spaceBeetwenSteps: 3
+    stepsDistanceFactor: 0.5
+    routeWidth: 2.5
+    routeWidthFactor: 1
+  - stepsCount: 100
+    stepsVariantsCount: 3
+    spaceBeetwenSteps: 3
+    stepsDistanceFactor: 0.5
+    routeWidth: 2.5
+    routeWidthFactor: 1
+  - stepsCount: 100
+    stepsVariantsCount: 3
+    spaceBeetwenSteps: 3
+    stepsDistanceFactor: 0.5
+    routeWidth: 2.5
+    routeWidthFactor: 1
