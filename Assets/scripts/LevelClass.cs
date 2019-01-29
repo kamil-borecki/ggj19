@@ -15,7 +15,6 @@ public class Level
     {
         sceneName = levelSettings.sceneName;
         stepsCount = levelSettings.stepsCount;
-        stepsVariations = levelSettings.stepsVariantsCount;
         stepDistance = levelSettings.spaceBeetwenSteps;
         stepDistanceRandomFactor = levelSettings.stepsDistanceFactor;
         routeWidth = levelSettings.routeWidth;

@@ -13,19 +13,21 @@ MonoBehaviour:
   m_Name: State
   m_EditorClassIdentifier: 
   currentLevel: 0
-  nextLevel: 1
-  background: {fileID: 0}
   levelSettings:
+  - sceneName: cutscene
+    stepsCount: 20
+    spaceBeetwenSteps: 2
+    stepsDistanceFactor: 2.5
+    routeWidth: 2.5
+    routeWidthFactor: 2
   - sceneName: level1
     stepsCount: 20
-    stepsVariantsCount: 3
     spaceBeetwenSteps: 2
     stepsDistanceFactor: 2.5
     routeWidth: 2.5
     routeWidthFactor: 2
   - sceneName: level2
     stepsCount: 20
-    stepsVariantsCount: 3
     spaceBeetwenSteps: 2
     stepsDistanceFactor: 2.5
     routeWidth: 2.5

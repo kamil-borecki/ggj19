@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baad778a-d9d5-4064-9ce0-0a1bcf2e18cc" name="Default Changelist" comment="Merge branch 'master' of https://github.com/kamil-borecki/ggj19&#10;&#10;# Conflicts:&#10;#&#9;Assets/moving_scene.unity">
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl1/things/kolo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/lvl1/things/kolo.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl2/steps/1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/steps/1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl2/steps/2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/steps/2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl2/steps/3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/steps/3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/lvl2/things/zegar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/lvl2/things/zegar.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/State.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/State.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/scripts/CutSceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/CutSceneController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/LevelClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/LevelClass.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/scripts/State.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/State.cs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,7 +19,7 @@
     <session id="-1110832231">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
@@ -61,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="512">
+              <caret line="64" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="64" />
             </state>
           </provider>
         </entry>
@@ -282,7 +277,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2955000" />
+    <option name="totallyTimeSpent" value="3552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -354,8 +349,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="512">
+          <caret line="64" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="64" />
         </state>
       </provider>
     </entry>
